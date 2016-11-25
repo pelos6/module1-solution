@@ -17,9 +17,9 @@ function LunchCheckController($scope) {
     var arrayOfStrings = stringToSplit.split(separator) ;
     if (stringToSplit  ) {
       if (arrayOfStrings.length < 4 ) {
-        $scope.mensaje = "Enjoy!" + arrayOfStrings.length;
+        $scope.mensaje = "Enjoy!" ;
       } else {
-        $scope.mensaje = "Too much!" + arrayOfStrings.length;
+        $scope.mensaje = "Too much!";
       }
     } else {
       $scope.mensaje = "Please enter data first!" ;
